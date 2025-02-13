@@ -1,0 +1,9 @@
+Hello, this is the code for a personal finance app. 
+
+EasyFin Personal Finance App | Python, Flask, HTML,CSS, SQLAlchemy, Bootstrap Jan. 2024 – Present
+• Developed a full-stack web application using Flask with HTML and CSS/Bootstrap as the frontend
+• Implemented SQLAlchemy to create a database to store user information
+• Allowed users to input personal finance information and then gave a detailed budget breakdown
+
+Run from main.py in instance folder 
+Templates folder contains all the html files. Everything extend base
