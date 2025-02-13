@@ -7,3 +7,4 @@ EasyFin Personal Finance App | Python, Flask, HTML,CSS, SQLAlchemy, Bootstrap Ja
 
 Run from main.py in instance folder 
 Templates folder contains all the html files. Everything extend base
+Database is in models.py, created with sqlalchemy
