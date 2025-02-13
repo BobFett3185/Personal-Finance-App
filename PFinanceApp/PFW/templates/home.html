@@ -1,0 +1,116 @@
+ 
+<!--extend base template onto home . Homepage has the navbar  -->
+
+{% extends "base.html" %} {% block title %} Welcome to the Home Page{% endblock %}
+
+{%block content %}
+<br>
+<h1 align = "center", style="color:darkslateblue;"> 
+
+    Welcome to your personal finance success!
+</h1>
+<br> 
+<h3 align = "center", style="color:darkslateblue;"> 
+
+  Please input these fields to create a personalized budget for your monthly spending!
+  
+</h3>
+<br>
+
+<form method = "POST">
+
+  <h3 align = "center", style="color:darkslateblue;"> Input all fields to the dollar value xxx.xx </h3>
+  <br>
+  <div class ="form-group">
+      <label for = "monthlyIncome">Enter your expected income per month </label>
+      <input 
+          type = "monthlyIncome"
+          class = "form-control"
+          id = "monthlyIncome"
+          name = "monthlyIncome"
+          placeholder = "Enter monthly income "
+          />
+  </div>
+
+
+  <div class ="form-group">
+      <label for = "housing">Enter your expected spendings on housing (just rent or mortgage) </label>
+      <input 
+          type = "housing"
+          class = "form-control"
+          id = "housing"
+          name = "housing"
+          placeholder = "Enter your housing cost"
+          />
+  </div>
+
+  <div class ="form-group">
+    <label for = "utilities">Enter your expected spendings on utilities </label>
+    <input 
+        type = "utilities"
+        class = "form-control"
+        id = "utilities"
+        name = "utilities"
+        placeholder = "Enter your utilities cost"
+        />
+</div>
+
+
+<div class ="form-group">
+  <label for = "grocieries">Enter your expected spendings on grocery shopping </label>
+  <input 
+      type = "grocieries"
+      class = "form-control"
+      id = "grocieries"
+      name = "grocieries"
+      placeholder = "Enter your grocieries cost"
+      />
+</div>
+
+<div class ="form-group">
+  <label for = "restaurants">Enter your expected spendings on eating out </label>
+  <input 
+      type = "restaurants"
+      class = "form-control"
+      id = "restaurants"
+      name = "restaurants"
+      placeholder = "Enter your cost of eating out"
+      />
+</div>
+
+<div class ="form-group">
+  <label for = "insurance">Enter your expected spendings on insurance </label>
+  <input 
+      type = "insurance"
+      class = "form-control"
+      id = "insurance"
+      name = "insurance"
+      placeholder = "Enter your cost of insurance"
+      />
+</div>
+
+<div class ="form-group">
+  <label for = "insurance">Enter your expected spendings on insurance </label>
+  <input 
+      type = "insurance"
+      class = "form-control"
+      id = "insurance"
+      name = "insurance"
+      placeholder = "Enter your cost of insurance"
+      />
+</div>
+
+
+
+<br/>
+<button type = "submit" class = "btn btn-primary"> Submit</button>
+
+</form>
+
+<!-- Using bootstrap library to make the html look nice   -->
+<!--create user input form to add all your monthy spending constants, need to add them to database next.   -->
+
+
+{%endblock%}
+
+  
